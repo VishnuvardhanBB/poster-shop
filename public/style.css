@@ -366,3 +366,16 @@ body {
         display: none;
     }
 }
+/*fadeTotal Transition*/
+
+.fadeTotal-enter{
+    opacity: 0;
+}
+
+.fadeTotal-enter-active {
+   transition:  opacity 5s;
+}
+
+.fadeTotal-enter-to{
+    opacity: 1;
+}
